@@ -1,0 +1,134 @@
+Title       : On the need for an Australian Identity Commissioner
+Author      : Dr Ted Dunstone
+Affiliation : Biometix
+Email       : ted@biometix.com
+Doc Class   : [9pt]article
+Package     : [a4paper, total={6in, 10in}]geometry
+Vendor      : *Nuance3*
+ID1         :12
+ID2         :eval(ID1*2)
+
+
+
+Logo          : False
+Bibliography  : example.bib
+Bib Style     : style/acm-reference-format.bst
+
+[TITLE]
+
+~ Center
+![image]
+~
+
+
+[image]: images/image.jpeg "image" { width:auto; max-width:30% }
+
+&vendor;
+&id2;
+
+
+
+~ Abstract
+The following article explains the need for a government identity commissioner.
+
+~
+
+
+[INCLUDE="reporting_api.md"]
+
+[INCLUDE="reporting_template.md"]
+
+
+
+# Introduction     { #sec-intro }
+
+The increasing role of biometric technologies has led to calls for greater regulation of biometrics and identity. Other countries are also considering how best to regulate these technologies and some have enacted specific regulatory frameworks for biometrics. Given this there is an urgent need to better set out an approach to regulation of biometrics and its expectations of agencies using or proposing to use biometrics and to  contribute to the wider discussion about whether existing regulatory frameworks adequately address the risks and maintain the benefits of using biometric technologies.
+
+We argue that it is important to set out the key principles that should underpin the development of a robust regulatory framework for biometrics and to establish the level of oversight that should be provided.
+
+This paper sets out some of the key principles, and makes three recommendations:
+
+– An identity commissioner should be set up with an appropriate remit and powers.
+
+– The commissioner should review the current regulatory framework with a view to identifying any gaps or anomalies and setting out a regulatory framework that addresses these.
+
+– The commissioner should examine and assess the potential impact of biometric technologies on the privacy of individuals, the security of their information and the quality of the services they can be offered and that the public can access.
+
+This will require a thorough examination of the use of biometrics, including the use of biometrics in access controls, biometric-enabled applications in financial transactions, biometric identity documents and biometric identity cards, including cards that are used by government agencies.
+
+~ Framed { padding=0ex; margin=0ex}
+**Identity**
+
+An identity commissioner could develop appropriate powers to investigate matters and to issue a final order on a wide range of matters, including orders that the commissioner is satisfied are required to protect the privacy of individuals and the security of their personal information, including orders under the Data Protection Act 1998.
+~
+
+
+# The necessity of appointing an identity commissioner
+
+It is past time to appoint an identity commissioner with appropriate authority and responsibilities.
+
+The commissioner should conduct an independent examination of the current regulatory system in order to identify any flaws and set up a new mechanism to address them.
+
+~ Framed {padding=2ex;margin=2ex}
+The responsibility of an identity commissioner should be to examine the current regulatory framework for any gaps or anomalies and to establish a regulatory framework that corrects them. This is an appropriate role.
+~
+~ Note
+Here is a remark.
+~
+
+
+A commissioner who is responsible for establishing a biometrics regulatory framework must consider the proper scope of the commissioner's powers. The identity commissioner should investigate and evaluate individual privacy, personal information security, and service quality. This person should be able to do so with the help of biometrics.
+
+The commissioner will be able to investigate and evaluate:
+
+* Legislation, guidelines, or other regulatory mechanisms are required to address the privacy concerns raised by biometrics.
+
+* to address the security risks posed by biometrics use through legislation, advice, or other regulatory mechanisms
+
+* Any type of regulation, guidance, or other regulatory framework that addresses biometric quality assurance and service quality is urgently needed.
+
+* The use of biometrics must meet the commissioner's minimum standards for privacy, security, and quality assurance.
+
+# The current legal framework for biometrics
+
+In the United Kingdom, there is already a legal framework for biometrics, but it was piecemeal and is not yet comprehensive.
+
+Some of the framework's flaws are as follows:
+
+This country does not appear to have a comprehensive biometrics framework in place.
+
+In the United Kingdom, biometrics for identification documents are not governed by a comprehensive legislative framework.
+
+Financial entities' use of biometric identification is not clearly regulated.
+
+There is no well-defined @Knuth:TeX regulatory framework for biometric identification by government entities.
+
+There is no clear regulatory structure for biometric access controls.
+
+Europe's role in establishing a strong regulatory framework
+
+As a global leader, the European Union has created a strong regulatory framework.
+
+@Grandstrand
+
+### Acknowledgments {-}
+
+I would like to thank ...
+
+[BIB]
+
+&pagebreak;
+
+# An appendix { @h1:"A" }
+
+"All the same, I should like it all plain and clear," said he
+obstinately, putting on his business manner (usually reserved for people
+who tried to borrow money off him), and doing his best to appear wise and
+prudent and professional and live up to Gandalf's recommendation. "Also I
+should like to know about risks, out-of-pocket expenses, time required
+and remuneration, and so forth" -- by which he meant: "What am I going to
+get out of it? and am I going to come back alive?"
+
+# Conclusion
+
+Really fun to write Markdown :-)
