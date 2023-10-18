@@ -20,6 +20,9 @@
             flex-direction: column;
             color: white; /* Set text color to white */
         }
+        .brand-logo {
+            margin-left: 20px; /* Add some space to the left of the logo */
+        }
         nav {
             position: fixed; /* Fix the header at the top */
             top: 0;
@@ -112,7 +115,8 @@
     <!-- Navbar -->
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">NuWork AI</a>
+            <a href="#" class="brand-logo"> <img src="public/nuwork_logo.png" alt="NuWork AI Logo" width="40" height="40" style="margin-top: 10px"> NuWork AI</a>
+            
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Our Services</a></li>
@@ -123,71 +127,55 @@
 
     <!-- Hero Section -->
     <section id="hero" class="container content">
-        <h1> NuWork AI</h1>
-        <h3>The Leading Provider of AI Solutions for Government v3 <a class="waves-effect waves-light btn" href="#contact">Get Started</a></h3>
-       
+        // center div
+        <div class="center">
+            <h1>Enabling the safe use of AI</h1>
+            <h3>Unlock the potential of AI for your organization.</h3>
+        <br><br><br><img src="public/nuwork_logo.png" alt="NuWork AI Logo" width="200" height="200">
+        <p>
+            At NuWork AI, we specialize in ensuring the safe and compliant integration of AI technologies into diverse sectors. Our innovative solutions aid organizations in adopting AI seamlessly while prioritizing human-centric processes. Through rigorous monitoring and reporting mechanisms, we ensure your AI systems adhere to the highest standards of safety and governance.
+        </p>
     </section>
 
-    <a href="#get-started" class="get-started-button">Get Started</a>
+    <a href="#get-started" class="get-started-button">Contact Us</a>
 
-    <!-- Carousel -->
-    <div class="carousel">
-        <a class="carousel-item" href="#one!"><img src="sample-image-1.jpg"></a>
-        <a class="carousel-item" href="#two!"><img src="sample-image-2.jpg"></a>
-        <a class="carousel-item" href="#three!"><img src="sample-image-3.jpg"></a>
-        <!-- Add more carousel items with images as needed -->
-    </div>
-
+   
     <!-- About Us Section -->
     <section id="about" class="container">
         <h2>About Us</h2>
-        <p>NuWork AI is the leading provider of cutting-edge artificial intelligence advice, integration experience, and platforms for large organizations and government. Our team has over 20 years of experience in AI, with our founder holding a PhD in the field.</p>
-        <!-- Include more details about your company here -->
+        <p>NuWork AI is the leading provider of cutting-edge artificial intelligence advice, integration techniques, and platforms designed for substantial organizations and governmental bodies. With over two decades of experience in the realm of AI, our expert team is spearheaded by a founder with an illustrious PhD in the field. Our dedication to progress and innovation has positioned us at the forefront of AI integration and consultancy.</p>
     </section>
 
     <!-- Our Services Section -->
     <section id="services" class="container">
         <h2>Our Consulting and AI Integration Services</h2>
         <ul>
-            <li>Develop scalable and generic AI solution components to serve as building blocks for the industry</li>
-            <li>AI skills training and capacity building exercises for industry and government workforces</li>
-            <!-- Include more details about your services here -->
+            <li>* Development of scalable and generic AI solution components tailored to serve as foundational blocks for various industries.</li>
+            <li>* Comprehensive AI skills training programs and capacity-building exercises designed for both industrial and governmental workforces.</li>
+            <li>* End-to-end AI system implementation, including post-integration monitoring and performance optimization.</li>
+            <li>* Personalized consulting sessions to strategize AI adoption based on organization-specific needs and challenges.</li>
         </ul>
     </section>
 
-    <!-- Our Services Section -->
-    <section id="services" class="container">
-        <h2>Our Consulting and AI Integration Services</h2>
-        <ul>
-            <li>Develop scalable and generic AI solution components to serve as building blocks for the industry</li>
-            <li>AI skills training and capacity building exercises for industry and government workforces</li>
-            <!-- Include more details about your services here -->
-        </ul>
-    </section>
-
-    <!-- Our Services Section -->
-    <section id="services" class="container">
-        <h2>Our Consulting and AI Integration Services</h2>
-        <ul>
-            <li>Develop scalable and generic AI solution components to serve as building blocks for the industry</li>
-            <li>AI skills training and capacity building exercises for industry and government workforces</li>
-            <!-- Include more details about your services here -->
-        </ul>
+    <!-- Our Customers -->
+    <section id="customers" class="container">
+        <h2>Our Esteemed Customers</h2>
+        <p>We're proud to have collaborated with a diverse range of clients, from tech startups to large corporates and governmental agencies. Our solutions have empowered organizations to harness the power of AI, drive growth, and achieve unparalleled success.</p>
     </section>
 
     <!-- Get Started Section -->
-    <section id="get-started" class="content">
-        <h2>Get Started</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel odio id erat tristique bibendum. Sed at bibendum libero.</p>
+    <section id="get-started" class="container">
+        <h2>Begin Your AI Journey with Us</h2>
+        <p>Unlock the potential of AI for your organization. Whether you're looking to integrate AI technologies or enhance existing systems, our team at NuWork AI is committed to guiding you every step of the way. Let's shape the future, together.</p>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container">
-        <h2>Contact Us</h2>
-        <p>If you're interested in our AI solutions for government, please don't hesitate to get in touch with us. We're here to help.</p>
+        <h2>Reach Out to Us</h2>
+        <p>We're eager to understand your AI needs and offer tailored solutions. Contact our team of experts and let's discuss how we can transform your organization's AI aspirations into reality.</p>
         <p>Contact Information:</p>
         <p>Email: info@nuworkai.com</p>
-        <p>Phone: +1-123-456-7890</p>
+        <p>Phone: +61 419990968</p>
     </section>
 
     <!-- Footer -->
@@ -196,13 +184,14 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">NuWork AI</h5>
-                    <p class="grey-text text-lighten-4">Improving productivity and efficiency with AI.</p>
+                    <p class="grey-text text-lighten-4">Pioneering advancements in AI to elevate productivity and efficiency.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Contact Us</h5>
+                    <h5 class="white-text">Quick Links</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="#contact">Contact Information</a></li>
-                        <!-- Add more links if needed -->
+                        <li><a class="grey-text text-lighten-3" href="#services">Our Services</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#about">About Us</a></li>
                     </ul>
                 </div>
             </div>
