@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NuWork AI - AI Solutions for Government</title>
+    
+    <!-- Include Material Design CSS from CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Include custom CSS styles (if any) -->
+    <style>
+       /* Add CSS for fixed footer */
+       html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            color: white; /* Set text color to white */
+        }
+        nav {
+            position: fixed; /* Fix the header at the top */
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: darkblue; /* Set header background color to dark blue */
+            z-index: 100; /* Ensure the header is above other elements */
+        }
+        main {
+            flex-grow: 1;
+            position: relative;
+            display: flex; /* Use flexbox for two columns */
+            justify-content: center; /* Center the content horizontally */
+        }
+        .content {
+            flex: 1; /* Equal width for both columns */
+            max-width: 50%; /* Maximum width for each column */
+            padding: 20px; /* Add padding to columns */
+        }
+        .content h1,
+        .content h3 {
+            text-align: center; /* Center-align titles */
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: darkblue; /* Set menu background color to dark blue */
+        }
+
+        .page-footer {
+            background-color: darkblue; /* Set menu background color to dark blue */
+        }
+
+        footer a {
+            color: white; /* Set menu item text color to white */
+        }
+         /* Add CSS for video container */
+         #video-container {
+            position: fixed; /* Fixed position for full-page effect */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        /* Style the video to cover the whole page */
+        video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        /* Style the menu items */
+        nav {
+            background-color: darkblue; /* Set menu background color to dark blue */
+        }
+        nav a {
+            color: white; /* Set menu item text color to white */
+        }
+
+        /* Style the "Get Started" button */
+        .get-started-button {
+            display: block;
+            margin: 20px auto; /* Center-align the button */
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <video autoplay loop muted playsinline>
+            <source src="background-video.mp4" type="video/mp4">
+            <!-- Add additional source elements for different video formats if needed -->
+        </video>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">NuWork AI</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="container content">
+        <h1>Welcome to NuWork AI</h1>
+        <h3>The Leading Provider of AI Solutions for Government <a class="waves-effect waves-light btn" href="#contact">Get Started</a></h3>
+       
+    </section>
+
+    <a href="#get-started" class="get-started-button">Get Started</a>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="sample-image-1.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="sample-image-2.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="sample-image-3.jpg"></a>
+        <!-- Add more carousel items with images as needed -->
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>NuWork AI is the leading provider of cutting-edge artificial intelligence advice, integration experience, and platforms for large organizations and government. Our team has over 20 years of experience in AI, with our founder holding a PhD in the field.</p>
+        <!-- Include more details about your company here -->
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="container">
+        <h2>Our Consulting and AI Integration Services</h2>
+        <ul>
+            <li>Develop scalable and generic AI solution components to serve as building blocks for the industry</li>
+            <li>AI skills training and capacity building exercises for industry and government workforces</li>
+            <!-- Include more details about your services here -->
+        </ul>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="container">
+        <h2>Our Consulting and AI Integration Services</h2>
+        <ul>
+            <li>Develop scalable and generic AI solution components to serve as building blocks for the industry</li>
+            <li>AI skills training and capacity building exercises for industry and government workforces</li>
+            <!-- Include more details about your services here -->
+        </ul>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="container">
+        <h2>Our Consulting and AI Integration Services</h2>
+        <ul>
+            <li>Develop scalable and generic AI solution components to serve as building blocks for the industry</li>
+            <li>AI skills training and capacity building exercises for industry and government workforces</li>
+            <!-- Include more details about your services here -->
+        </ul>
+    </section>
+
+    <!-- Get Started Section -->
+    <section id="get-started" class="content">
+        <h2>Get Started</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel odio id erat tristique bibendum. Sed at bibendum libero.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>If you're interested in our AI solutions for government, please don't hesitate to get in touch with us. We're here to help.</p>
+        <p>Contact Information:</p>
+        <p>Email: info@nuworkai.com</p>
+        <p>Phone: +1-123-456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">NuWork AI</h5>
+                    <p class="grey-text text-lighten-4">Improving productivity and efficiency with AI.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contact Us</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#contact">Contact Information</a></li>
+                        <!-- Add more links if needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Include Material Design JavaScript from CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Include your custom JavaScript (if any) -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.carousel');
+                var instances = M.Carousel.init(elems);
+            });
+        </script>
+    </footer>
+</body>
+</html>
