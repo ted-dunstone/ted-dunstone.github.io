@@ -127,6 +127,27 @@
                 display: block;
             }
         }
+
+        /* Adjust styles for mobile screens */
+        @media (max-width: 768px) {
+            nav .nav-wrapper {
+                padding: 0 10px; /* Add some padding to sides for mobile */
+            }
+
+            .brand-logo {
+                display: none;
+            }
+        
+            .content {
+                padding: 10px; /* Reduce padding for mobile */
+            }
+        
+            .get-started-button {
+                font-size: 14px; /* Reduce font size for mobile */
+                padding: 8px 16px;
+            }
+        }
+
     </style>
 </head>
 <body>
