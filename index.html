@@ -116,6 +116,17 @@
                 transform: scale(0.95);
             }
         }
+        /* By default, the footer is hidden */
+        .page-footer {
+            display: none;
+        }
+        
+        /* Show the footer on screens larger than 768px */
+        @media (min-width: 768px) {
+            .page-footer {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
